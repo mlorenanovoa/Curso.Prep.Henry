@@ -29,7 +29,6 @@ function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
   return "str";
-
 }
 
 function suma(x, y) {
@@ -43,21 +42,18 @@ function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
   return x - y;
-  
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
   return x * y;
-  
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
   return x / y;
-  
 }
 
 function sonIguales(x, y) {
@@ -76,10 +72,8 @@ function tienenMismaLongitud(str1, str2) {
   // Tu código:
   if(str1.length === str2.length){
     return true;
-
   }
   return false;
-  
 }
 
 function menosQueNoventa(num) {
@@ -100,7 +94,6 @@ function mayorQueCincuenta(num) {
     return true;
   }
   return false;
-  
 }
 
 function obtenerResto(x, y) {
@@ -119,7 +112,6 @@ function esPar(num) {
     return true;
   }
   return false;
-  
 }
 
 function esImpar(num) {
@@ -131,7 +123,6 @@ function esImpar(num) {
     return true;
   }
   return false;
-  
 }
 
 function elevarAlCuadrado(num) {
@@ -174,7 +165,6 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return Math.random(0 , 1);
-  
 }
 
 function esPositivo(numero) {
@@ -186,16 +176,14 @@ function esPositivo(numero) {
   if(conejillo >= 0){
     return numero + " es positivo";
   }
-  return numero + " es negativo"
-  
+  return numero + " es negativo";
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  
-  return  "str" + "!";
+  return  str + "!";
 }
 
 function combinarNombres(nombre, apellido) {
